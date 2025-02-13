@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage"
 import ProductPage from "./pages/ProductPage"
 import {Route, Routes} from 'react-router-dom'
 import { useThemeStore } from "./store/useThemeStore"
-import Toaster from 'react-hot-toast'
+import {Toaster} from 'react-hot-toast'
 
 const App = () => {
   const {theme} = useThemeStore()
